@@ -1,0 +1,691 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+    /* outline: #FEA400 2px solid; */
+
+}
+
+.text {
+    text-align: center;
+}
+
+.Saint {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.p-st {
+    position: sticky !important;
+}
+
+.Shiba {
+    color: #F06500;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.sticky {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.img-postion {
+    position: absolute;
+    right: 20%;
+    top: -17%;
+}
+
+.nav {
+    color: #FFF;
+}
+
+.img-postion1 {
+    position: absolute;
+    right: 0;
+    top: -20%;
+}
+
+.img-postion2 {
+    position: absolute;
+    right: 0;
+    top: 2%;
+}
+
+.img-postion3 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+
+
+
+.btn1 {
+    background-color: #FEA400;
+    padding: 11px 28px;
+    border: none;
+    border-radius: 23px;
+    color: #FFF;
+}
+
+
+.bg-image {
+    background-image: url(../image/moon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.font {
+    font-family: Poppins;
+    font-size: 79px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.pt {
+    padding-top: 70px;
+}
+
+.font1 {
+    color: #B6B6B6;
+    padding-bottom: 23px;
+}
+
+.tabel {
+    margin-bottom: unset !important;
+    align-items: center;
+    text-align: center;
+}
+
+.p-ab {
+    position: absolute;
+    right: -5%;
+    top: -44%;
+
+}
+
+.p-ab1 {
+    position: absolute;
+    right: 0%;
+
+
+}
+
+.box {
+
+    width: 100%;
+    padding: 4px;
+    border-radius: 10px;
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00) 100%);
+    backdrop-filter: blur(16px);
+
+}
+
+.font2 {
+    color: white;
+
+}
+
+.font-3 {
+    color: #FFF;
+    font-size: 11px;
+}
+
+.font6 {
+    color: black;
+}
+
+.font-2 {
+    color: #B6B6B6;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+.bg-img {
+    background-color: black;
+}
+
+.font-family {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.box1 {
+    height: 69px;
+    width: 100%;
+    border: none;
+    background-color: black;
+    border-radius: 50px;
+
+}
+
+.elipen {
+    height: 50px;
+    width: 50px;
+    background-color: #FEA400;
+    border-radius: 34px;
+}
+
+.elipen1 {
+    height: 50px;
+    width: 50px;
+    background-color: #FFF;
+    border-radius: 34px;
+}
+
+.pb1 {
+    position: absolute;
+    right: -12%;
+}
+
+.font-color {
+    color: #FFF;
+}
+
+.back-ground {
+    background-color: #1D1A1A;
+}
+
+.box-1 {
+    width: 350px;
+    height: 154px;
+    border-radius: 10px;
+    background: linear-gradient(136deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.00) 100%);
+    background-color: black;
+}
+
+.box-4 {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #1D1A1A;
+    border-radius: 10px;
+}
+
+.color {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.color1 {
+    color: red;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.font4 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.font-size {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.card1 {
+    height: 50px;
+    width: 50px;
+    background-color: #00E396;
+    border: none;
+    border-radius: 10px;
+}
+
+.card2 {
+    height: 50px;
+    width: 50px;
+    background-color: #F06500;
+    border: none;
+    border-radius: 10px;
+}
+
+.card3 {
+    height: 50px;
+    width: 50px;
+    background-color: #8B35E2;
+    border: none;
+    border-radius: 10px;
+}
+
+.card4 {
+    height: 50px;
+    width: 50px;
+    background-color: #00B2FF;
+    border: none;
+    border-radius: 10px;
+}
+
+.card5 {
+    height: 50px;
+    width: 50px;
+    background-color: #FEA400;
+    border: none;
+    border-radius: 10px;
+}
+
+.card6 {
+    height: 50px;
+    width: 50px;
+    background-color: #FF4560;
+    border: none;
+    border-radius: 10px;
+}
+
+
+.font5 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 230px;
+
+}
+
+.ff {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 290;
+    padding-top: 12px;
+}
+
+.font-5 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    max-width: 230px;
+
+}
+
+
+
+.font-family1 {
+    color: var(--white, #FFF);
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+
+
+.accordion-button:not(.collapsed) {
+    background-color: black !important;
+}
+
+.accordion-button {
+    background-color: black !important;
+}
+
+.text-color {
+    color: white !important;
+}
+
+.text-color1 {
+    color: #B8B8B8 !important;
+}
+
+.mb-6 {
+    padding-bottom: 800px;
+}
+
+
+.accordion-item {
+    background-color: black !important;
+}
+
+
+
+
+
+/* dhqude */
+
+
+.js {
+    justify-content: start;
+}
+
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    background-color: white;
+    top: 4%;
+    bottom: -4%;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+.timelinecontainer {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+
+.timelinecontainer::after {
+    content: '';
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: -17px;
+    background-color: #F06500;
+    border: 4px solid #F06500;
+    top: 15px;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+
+.left {
+    left: 0;
+}
+
+
+.right {
+    left: 50%;
+}
+
+
+
+
+
+
+
+.right::after {
+    left: -16px;
+}
+
+/* 
+.content {
+    padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    border-radius: 6px;
+} */
+
+.timeline::after {
+    left: 31px;
+}
+
+
+.timelinecontainer {
+    width: 100%;
+    padding-left: 70px;
+    padding-right: 25px;
+}
+
+.timelinecontainer::before {
+    left: 60px;
+    border: medium solid white;
+    border-width: 10px 10px 10px 0;
+    border-color: transparent white transparent transparent;
+}
+
+
+.left::after {
+    left: 19px;
+}
+
+.right::after {
+    left: 19px;
+}
+
+
+.right {
+    left: 0%;
+}
+
+
+
+.js {
+    justify-content: flex-start !important;
+}
+
+.justify-content-end {
+    justify-content: flex-start !important;
+}
+
+.font {
+    font-size: 45px;
+}
+
+.elipen {
+    height: 50px;
+    width: 69px;
+    background-color: #FEA400;
+    border-radius: 34px;
+}
+
+.elipen1 {
+    height: 50px;
+    width: 69px;
+    background-color: #FFF;
+    border-radius: 34px;
+}
+
+.ff1 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
+@media (min-width:320px) {
+    .ff {
+        font-size: 11px;
+    }
+
+    .ff1 {
+        font-size: 11px;
+    }
+
+}
+
+@media (min-width:576px) {
+    .font {
+        font-size: 88px;
+    }
+
+
+
+    .timeline {
+        position: relative;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .elipen {
+        height: 50px;
+        width: 51px;
+        background-color: #FEA400;
+        border-radius: 34px;
+    }
+
+    .elipen1 {
+        height: 50px;
+        width: 51px;
+        background-color: #FFF;
+        border-radius: 34px;
+    }
+
+
+    .timeline::after {
+        content: '';
+        position: absolute;
+        width: 6px;
+        background-color: white;
+        top: 3%;
+        bottom: -4%;
+        left: 50%;
+        margin-left: -3px;
+    }
+
+
+    .timelinecontainer {
+        padding: 10px 40px;
+        position: relative;
+        background-color: inherit;
+        width: 50%;
+    }
+
+
+    .timelinecontainer::after {
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 25px;
+        left: 98%;
+        background-color: #F06500;
+        border: 4px solid #F06500;
+        top: 15px;
+        border-radius: 50%;
+        z-index: 1;
+    }
+
+
+    .left {
+        left: 0;
+    }
+
+
+    .right {
+        left: 50%;
+    }
+
+
+
+
+
+
+    .right::after {
+        left: -14px;
+    }
+
+    .justify-content-end {
+        justify-content: flex-start !important;
+    }
+
+
+
+}
+
+@media (min-width:768px) {
+
+
+
+
+
+    .position_md_absolute {
+        position: absolute;
+    }
+
+    .w_md_50 {
+        width: 50%;
+    }
+
+    .img_positioning {
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+    }
+
+}
+
+
+
+@media (max-width:992px) {
+    .ff {
+        font-size: 19px;
+    }
+
+    label[for="iconbar"] {
+        width: 50px;
+        height: 40px;
+        flex-direction: column;
+        display: flex;
+        justify-content: space-between;
+        cursor: pointer;
+        z-index: 2;
+
+    }
+
+    label[for="iconbar"]>span {
+        width: 100%;
+        height: 5px;
+        background-color: black;
+        z-index: 1;
+
+    }
+
+    .sm-screen {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: fixed;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        left: -100%;
+        background-color: #FFF03F;
+        pointer-events: none;
+        z-index: 1;
+        opacity: 0;
+        transition: all 200ms;
+        top: 0;
+    }
+
+
+
+    input[type="checkbox"]:checked+ul.sm-screen {
+        left: 0;
+        pointer-events: all;
+        opacity: 1;
+    }
+
+}
